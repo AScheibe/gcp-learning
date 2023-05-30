@@ -1,0 +1,227 @@
+alexanderscheibe@btf614 gcp-testing % pip install pandas
+zsh: command not found: pip
+alexanderscheibe@btf614 gcp-testing % pip3
+
+Usage:   
+  pip3 <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  inspect                     Inspect the python environment.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  index                       Inspect information available from package indexes.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --debug                     Let unhandled exceptions propagate outside the main
+                              subroutine, instead of logging them to stderr.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables
+                              and user configuration.
+  --require-virtualenv        Allow pip to only run in a virtual environment; exit with an
+                              error otherwise.
+  --python <python>           Run pip with the specified Python interpreter.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3
+                              times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3
+                              times (corresponding to WARNING, ERROR, and CRITICAL logging
+                              levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy <proxy>             Specify a proxy in the form
+                              scheme://[user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt
+                              (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore,
+                              (w)ipe, (b)ackup, (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it
+                              does not have valid or any HTTPS.
+  --cert <path>               Path to PEM-encoded CA certificate bundle. If provided,
+                              overrides the default. See 'SSL Certificate Verification' in
+                              pip documentation for more information.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the
+                              private key and the certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new
+                              version of pip is available for download. Implied with --no-
+                              index.
+  --no-color                  Suppress colored output.
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported Pythons.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the
+                              future.
+alexanderscheibe@btf614 gcp-testing % pip3 install pandas
+Collecting pandas
+  Downloading pandas-2.0.1-cp311-cp311-macosx_10_9_x86_64.whl (11.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.6/11.6 MB 4.0 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 3.7 MB/s eta 0:00:00
+Collecting pytz>=2020.1
+  Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 502.3/502.3 kB 4.0 MB/s eta 0:00:00
+Collecting tzdata>=2022.1
+  Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.8/341.8 kB 2.8 MB/s eta 0:00:00
+Collecting numpy>=1.21.0
+  Downloading numpy-1.24.3-cp311-cp311-macosx_10_9_x86_64.whl (19.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.8/19.8 MB 4.2 MB/s eta 0:00:00
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, tzdata, six, numpy, python-dateutil, pandas
+Successfully installed numpy-1.24.3 pandas-2.0.1 python-dateutil-2.8.2 pytz-2023.3 six-1.16.0 tzdata-2023.3
+
+[notice] A new release of pip is available: 23.0.1 -> 23.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+alexanderscheibe@btf614 gcp-testing % pip install xlrd
+zsh: command not found: pip
+alexanderscheibe@btf614 gcp-testing % pip3 install xlrd  
+Collecting xlrd
+  Downloading xlrd-2.0.1-py2.py3-none-any.whl (96 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 96.5/96.5 kB 504.5 kB/s eta 0:00:00
+Installing collected packages: xlrd
+Successfully installed xlrd-2.0.1
+
+[notice] A new release of pip is available: 23.0.1 -> 23.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+alexanderscheibe@btf614 gcp-testing % pip3 install openpyxl
+Collecting openpyxl
+  Downloading openpyxl-3.1.2-py2.py3-none-any.whl (249 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 250.0/250.0 kB 642.0 kB/s eta 0:00:00
+Collecting et-xmlfile
+  Downloading et_xmlfile-1.1.0-py3-none-any.whl (4.7 kB)
+Installing collected packages: et-xmlfile, openpyxl
+Successfully installed et-xmlfile-1.1.0 openpyxl-3.1.2
+
+[notice] A new release of pip is available: 23.0.1 -> 23.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+alexanderscheibe@btf614 gcp-testing % pip3 install --user --upgrade google-cloud-bigquery
+Collecting google-cloud-bigquery
+  Downloading google_cloud_bigquery-3.10.0-py2.py3-none-any.whl (218 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 218.4/218.4 kB 627.7 kB/s eta 0:00:00
+Collecting grpcio<2.0dev,>=1.47.0
+  Downloading grpcio-1.54.2-cp311-cp311-macosx_10_10_universal2.whl (8.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.6/8.6 MB 2.2 MB/s eta 0:00:00
+Collecting google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0dev,>=1.31.5
+  Downloading google_api_core-2.11.0-py3-none-any.whl (120 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 120.3/120.3 kB 2.0 MB/s eta 0:00:00
+Collecting proto-plus<2.0.0dev,>=1.15.0
+  Downloading proto_plus-1.22.2-py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.9/47.9 kB 1.1 MB/s eta 0:00:00
+Collecting google-cloud-core<3.0.0dev,>=1.6.0
+  Downloading google_cloud_core-2.3.2-py2.py3-none-any.whl (29 kB)
+Collecting google-resumable-media<3.0dev,>=0.6.0
+  Downloading google_resumable_media-2.5.0-py2.py3-none-any.whl (77 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.7/77.7 kB 2.2 MB/s eta 0:00:00
+Requirement already satisfied: packaging>=20.0.0 in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (from google-cloud-bigquery) (23.1)
+Collecting protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.19.5
+  Downloading protobuf-4.23.1-cp37-abi3-macosx_10_9_universal2.whl (400 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 400.3/400.3 kB 3.9 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil<3.0dev,>=2.7.2 in /usr/local/lib/python3.11/site-packages (from google-cloud-bigquery) (2.8.2)
+Collecting requests<3.0.0dev,>=2.21.0
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.6/62.6 kB 1.4 MB/s eta 0:00:00
+Collecting googleapis-common-protos<2.0dev,>=1.56.2
+  Downloading googleapis_common_protos-1.59.0-py2.py3-none-any.whl (223 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 223.6/223.6 kB 3.3 MB/s eta 0:00:00
+Collecting google-auth<3.0dev,>=2.14.1
+  Downloading google_auth-2.19.0-py2.py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 kB 2.1 MB/s eta 0:00:00
+Collecting grpcio-status<2.0dev,>=1.33.2
+  Downloading grpcio_status-1.54.2-py3-none-any.whl (5.1 kB)
+Collecting google-crc32c<2.0dev,>=1.0
+  Downloading google_crc32c-1.5.0-cp311-cp311-macosx_10_9_x86_64.whl (30 kB)
+Requirement already satisfied: six>=1.5 in /usr/local/lib/python3.11/site-packages (from python-dateutil<3.0dev,>=2.7.2->google-cloud-bigquery) (1.16.0)
+Collecting charset-normalizer<4,>=2
+  Downloading charset_normalizer-3.1.0-cp311-cp311-macosx_10_9_x86_64.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.7/123.7 kB 1.7 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.5/61.5 kB 1.5 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.0.2-py3-none-any.whl (123 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.2/123.2 kB 2.2 MB/s eta 0:00:00
+Collecting certifi>=2017.4.17
+  Downloading certifi-2023.5.7-py3-none-any.whl (156 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.0/157.0 kB 2.0 MB/s eta 0:00:00
+Collecting cachetools<6.0,>=2.0.0
+  Downloading cachetools-5.3.0-py3-none-any.whl (9.3 kB)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 kB 2.5 MB/s eta 0:00:00
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.1/143.1 kB 2.9 MB/s eta 0:00:00
+Collecting pyasn1<0.6.0,>=0.4.6
+  Downloading pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.9/83.9 kB 1.9 MB/s eta 0:00:00
+Installing collected packages: urllib3, pyasn1, protobuf, idna, grpcio, google-crc32c, charset-normalizer, certifi, cachetools, rsa, requests, pyasn1-modules, proto-plus, googleapis-common-protos, google-resumable-media, grpcio-status, google-auth, google-api-core, google-cloud-core, google-cloud-bigquery
+  WARNING: The script normalizer is installed in '/Users/alexanderscheibe/Library/Python/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  WARNING: The scripts pyrsa-decrypt, pyrsa-encrypt, pyrsa-keygen, pyrsa-priv2pub, pyrsa-sign and pyrsa-verify are installed in '/Users/alexanderscheibe/Library/Python/3.11/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+Successfully installed cachetools-5.3.0 certifi-2023.5.7 charset-normalizer-3.1.0 google-api-core-2.11.0 google-auth-2.19.0 google-cloud-bigquery-3.10.0 google-cloud-core-2.3.2 google-crc32c-1.5.0 google-resumable-media-2.5.0 googleapis-common-protos-1.59.0 grpcio-1.54.2 grpcio-status-1.54.2 idna-3.4 proto-plus-1.22.2 protobuf-4.23.1 pyasn1-0.5.0 pyasn1-modules-0.3.0 requests-2.31.0 rsa-4.9 urllib3-1.26.16
+
+[notice] A new release of pip is available: 23.0.1 -> 23.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+alexanderscheibe@btf614 gcp-testing % pip3 install google-auth
+Requirement already satisfied: google-auth in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (2.19.0)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (from google-auth) (5.3.0)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (from google-auth) (0.3.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (from google-auth) (4.9)
+Requirement already satisfied: six>=1.9.0 in /usr/local/lib/python3.11/site-packages (from google-auth) (1.16.0)
+Requirement already satisfied: urllib3<2.0 in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (from google-auth) (1.26.16)
+Requirement already satisfied: pyasn1<0.6.0,>=0.4.6 in /Users/alexanderscheibe/Library/Python/3.11/lib/python/site-packages (from pyasn1-modules>=0.2.1->google-auth) (0.5.0)
+
+[notice] A new release of pip is available: 23.0.1 -> 23.1.2
+[notice] To update, run: python3.11 -m pip install --upgrade pip
+alexanderscheibe@btf614 gcp-testing % export GOOGLE_APPLICATION_CREDENTIALS=/Users/alexanderscheibe/Documents/very-secure-keystore/gcp-testing-387914-5ad8c33264c6.json
+alexanderscheibe@btf614 gcp-testing % export GOOGLE_APPLICATION_CREDENTIALS="/Users/alexanderscheibe/Documents/very-secure-keystore/gcp-testing-387914-5ad8c33264c6.json"
+alexanderscheibe@btf614 gcp-testing % gcloud config list project
+WARNING:  Python 3.5-3.7 will be deprecated on August 8th, 2023. Please use Python version 3.8 and up.
+
+If you have a compatible Python interpreter installed, you can use it by setting
+the CLOUDSDK_PYTHON environment variable to point to it.
+
+[core]
+project (unset)
+
+Your active configuration is: [default]
+alexanderscheibe@btf614 gcp-testing % gcloud config list        
+WARNING:  Python 3.5-3.7 will be deprecated on August 8th, 2023. Please use Python version 3.8 and up.
+
+If you have a compatible Python interpreter installed, you can use it by setting
+the CLOUDSDK_PYTHON environment variable to point to it.
+
+[core]
+disable_usage_reporting = True
+
+Your active configuration is: [default]
+alexanderscheibe@btf614 gcp-testing % gcloud config set project gcp-testing-387914
+WARNING:  Python 3.5-3.7 will be deprecated on August 8th, 2023. Please use Python version 3.8 and up.
+
+If you have a compatible Python interpreter installed, you can use it by setting
+the CLOUDSDK_PYTHON environment variable to point to it.
+
+Updated property [core/project].
+
+---PROJECT ID SET TO: gcp-testing-387914---
